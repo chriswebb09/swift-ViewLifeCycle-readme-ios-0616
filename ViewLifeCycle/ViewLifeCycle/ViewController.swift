@@ -9,6 +9,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         print("viewDidLoad() called")
         view.backgroundColor = UIColor.randomColor()
+        print("Done") 
     }
 
     override func viewWillAppear(animated: Bool) {
